@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !.*(\.css|\.js|\.htm|\.zf|\.gif|\.pdf|\.rar|\.ppt|\.chm|\.png|\.jpg|\.jpeg)$
+RewriteRule ^(.*)$ index.php [QSA,L]
